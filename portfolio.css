@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: lightcoral;
+    color: aliceblue;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+nav{
+    background-color: antiquewhite;
+    padding: 10px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 35%;
+    
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+#home{
+    background-color:aqua;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+#about{
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#project{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 20px;
+}
+#repair{
+    background-color: chocolate;
+}
+#graphic{
+    background-color: red;
+}
+#web{
+    background-color: chartreuse;
+}
+#e_commerce{
+    background-color: darkorange;
+}
+#project{
+    display: flex;
+    margin: 20px;
+  
+}
